@@ -37,7 +37,7 @@ if ($connection->query($sql) === TRUE) {
 
 
 $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-VALUES ('John', 'Doe', 'john@example.com')";
+VALUES ('bashu', 'pr', 'bprasdam@osius.com')";
 
 if ($connection->query($sql) === TRUE) {
     echo "New record created successfully";
