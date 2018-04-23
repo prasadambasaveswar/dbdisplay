@@ -12,13 +12,6 @@ if ($connection->connect_errno) {
     printf("demonstartion for inter pod communication");
 }
 
-// Create database
-$sql = "CREATE DATABASE myDB";
-if (mysqli_query($connection, $sql)) {
-    echo "Database created successfully";
-} else {
-    echo "Error creating database: " . mysqli_error($connection);
-}
 
 // sql to create table
 $sql = "CREATE TABLE MyGuests (
